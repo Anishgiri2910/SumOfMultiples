@@ -1,0 +1,9 @@
+def sum_of_multiples(no,nu):
+    nos=[]
+    for i in range(2,no):
+    	for j in range (0,len(nu)):
+    			if(i%nu[j]==0):
+    				print i
+    				nos.append(i)
+    noss=set(nos)
+    print (sum(noss))
